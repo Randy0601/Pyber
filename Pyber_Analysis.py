@@ -85,7 +85,7 @@ legend.legendHandles[2]._sizes = [30]
 
 #Show plot and save image
 plt.grid()
-plt.savefig("Images/Pyber Ride Sharing Data.png")
+plt.savefig("Images/Pyber Ride Sharing Data.png",bbox_inches="tight")
 plt.show()
 
 
